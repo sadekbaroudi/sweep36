@@ -1,4 +1,4 @@
-20076949232039066
+20081867296215017
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55990,8 +55990,8 @@ Kailh-PG1350-1u-reversible
 
 
 0
-5
-4
+3
+2
 Keebio-Parts
 Kailh-PG1350-1u-reversible-No-Clickhole
 
@@ -85679,3 +85679,24 @@ breakaway-mousebites
 0
 0
 0
+sweep36
+MX_SK6812MINI-E
+Add-on for regular MX-footprints with SK6812 MINI-E
+cherry MX SK6812 Mini-E rearmount rear mount led rgb backlight
+0
+4
+4
+sweep36
+MX_SK6812MINI-E_REV
+Add-on for regular MX-footprints with SK6812 MINI-E
+cherry MX SK6812 Mini-E rearmount rear mount led rgb backlight
+0
+4
+4
+sweep36
+OLED_v2
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
