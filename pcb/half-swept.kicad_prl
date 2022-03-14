@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -38,6 +38,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       14,
@@ -64,7 +65,7 @@
       36
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "half-swept.kicad_prl",
