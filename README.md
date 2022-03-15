@@ -1,6 +1,10 @@
-# Pronunciation
+# Name
 
-Sweep36
+sweeeeep
+
+why the name sweeeeep? because an elite-c is required to support the extra features, and an elite-c has 5 additional pins... so 5 Es for the 5 extra pins. Yes, it's dumb, I know.
+
+# Descripiton
 
 This is a reversible sweep pcb with support for 36 keys and choc switches (no hotswap). In order to continue to support a no diode setup, I added support for the elite-c, and this is now required for the build.
 
