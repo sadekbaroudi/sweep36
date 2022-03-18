@@ -25,9 +25,7 @@ Firmware has not been written, but will write it once the first round of PCBs ar
 
 # Pictures
 
-None yet, but will add as soon as they are available.
+No images of the actual pcb yet, but will add as soon as I receive them.
 
-![build](images/build.jpg)
-
-![pcbs](images/pcbs.jpg)
+![pcbs](images/pcb-kicad.png)
 
