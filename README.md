@@ -21,7 +21,8 @@ Discord: sadekbaroudi#1258
 
 # Firmware
 
-Firmware has not been written, but will write it once the first round of PCBs arrive
+Firmware can be found here:
+https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/fingerpunch/sweeeeep 
 
 # Pictures
 
