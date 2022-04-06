@@ -26,7 +26,10 @@ https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/fingerpunch/s
 
 # Pictures
 
-No images of the actual pcb yet, but will add as soon as I receive them.
+
+![pcbs](images/sweeeeep-1.jpg)
+
+![pcbs](images/sweeeeep-2.jpg)
 
 ![pcbs](images/pcb-kicad.png)
 
