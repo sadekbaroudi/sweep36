@@ -1,4 +1,4 @@
-20081867296215017
+20087811251115968
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85510,6 +85510,20 @@ Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
 varistor SIOV
 0
 2
+2
+fingerpunch
+gateron-ks27-choc-v1
+
+
+0
+4
+2
+fingerpunch
+gateron-ks27-choc-v1-reversible
+
+
+0
+7
 2
 random-keyboard-parts
 D_SOD-123-Pretty
