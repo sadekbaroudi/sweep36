@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/libraries/Keebio-Parts.pretty")(options "")(descr ""))
+  (lib (name "random-keyboard-parts")(type "KiCad")(uri "${KIPRJMOD}/libraries/random-keyboard-parts.pretty")(options "")(descr ""))
+  (lib (name "sweep36")(type "KiCad")(uri "${KIPRJMOD}/libraries/sweep36.pretty")(options "")(descr ""))
+  (lib (name "keyswitches")(type "KiCad")(uri "${KIPRJMOD}/libraries/keyswitches.pretty")(options "")(descr ""))
+)
