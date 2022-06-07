@@ -6,7 +6,16 @@ why the name sweeeeep? because an elite-c is required to support the extra featu
 
 # Descripiton
 
-This is a reversible sweep pcb with support for 36 keys, per key leds, oled, and choc switches (no hotswap). In order to continue to support a no diode setup, I added support for the elite-c, and this is now required for the build.
+This is a reversible sweep pcb with support for 36 keys, per key leds, oled, and choc spacing. In order to continue to support a no diode setup, I added support for the elite-c, and this is now required for the build.
+
+# Variations
+
+There are currently 5 versions of this pcb, as found in the pcb directory:
+* choc: No hotswap, 36 keys
+* choc-hotswap: Hotswap only, 36 keys
+* ks27-choc: Support for both choc and gateron ks-27 switches, no hotswap. Note that ks-27 switches use MX keycaps on a low profile switch. Given it's choc spacing, you will likely need to use custom smaller MX keycaps if using thees switches
+* choc-evq-inside: Hotswap only, 34 key, with an evqwgd001 roller encoder on the inside thumb key
+* choc-evq-outside: Hotswap only, 34 key, with an evqwgd001 roller encoder on the outside thumb key
 
 # Support me!
 
@@ -26,6 +35,7 @@ https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/fingerpunch/s
 
 # Pictures
 
+## sweeeeep choc
 
 ![pcbs](images/sweeeeep-1.jpg)
 
@@ -33,3 +43,6 @@ https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/fingerpunch/s
 
 ![pcbs](images/pcb-kicad.png)
 
+## sweeeeep evq inside
+
+![pcbs](images/sweeeeep-evq-inner.png)
