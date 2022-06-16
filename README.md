@@ -10,8 +10,9 @@ This is a reversible sweep pcb with support for 36 keys, per key leds, oled, and
 
 # Variations
 
-There are currently 5 versions of this pcb, as found in the pcb directory:
+There are currently 6 versions of this pcb, as found in the pcb directory:
 * choc: No hotswap, 36 keys
+* choc-rotated-inner-thumb: No hotswap, 36 keys, rotated inner thumb similar to the corne
 * choc-hotswap: Hotswap only, 36 keys
 * ks27-choc: Support for both choc and gateron ks-27 switches, no hotswap. Note that ks-27 switches use MX keycaps on a low profile switch. Given it's choc spacing, you will likely need to use custom smaller MX keycaps if using thees switches
 * choc-evq-inside: Hotswap only, 34 key, with an evqwgd001 roller encoder on the inside thumb key
