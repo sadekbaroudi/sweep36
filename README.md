@@ -31,7 +31,14 @@ Discord: sadekbaroudi#1258
 
 # Firmware
 
-Firmware can be found here:
+## Vial
+
+Special thanks to [Jason Hazel](https://github.com/jasonhazel) for adding vial support. Note that given vial with split code takes up most of the space, there is no support for the OLED or per key RGB. If you want those features, please use QMK below.
+
+https://github.com/sadekbaroudi/vial-qmk/tree/vial/keyboards/fingerpunch/sweeeeep
+
+## QMK
+
 https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/fingerpunch/sweeeeep 
 
 # Pictures
