@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/libraries/keebio.lib")(options "")(descr ""))
+  (lib (name "random-keyboard-parts")(type "Legacy")(uri "${KIPRJMOD}/libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name "kbd")(type "Legacy")(uri "${KIPRJMOD}/libraries/kbd.lib")(options "")(descr ""))
+  (lib (name "kicad-keyboard-parts")(type "Legacy")(uri "${KIPRJMOD}/libraries/kicad-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name "nice_view")(type "KiCad")(uri "${KIPRJMOD}/libraries/nice_view.kicad_sym")(options "")(descr ""))
+  (lib (name "nice_nano")(type "Legacy")(uri "${KIPRJMOD}/libraries/nice_nano.lib")(options "")(descr ""))
+)
