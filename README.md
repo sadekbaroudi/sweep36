@@ -1,20 +1,21 @@
 # Name
 
-sweeeeep
+sweep36
 
-why the name sweeeeep? because an elite-c is required to support the extra features, and an elite-c has 5 additional pins... so 5 Es for the 5 extra pins. Yes, it's dumb, I know.
-
-# Descripiton
-
-This is a reversible sweep pcb with support for 36 keys, per key leds (only on one of the two variations), nice!view or oled, and choc spacing. In order to continue to support a no diode setup, I added support for the elite-c, and this is now required for the build.
+A 36 key version of the sweep, maintaining the original diodeless pcb.
 
 # Variations
 
-There are currently two types:
-* wired only, with per key rgb
-* wireless only, with nice!view
+## sweeeeep
 
-## wired only
+why the name sweeeeep? because an elite-c is required to support the extra features, and an elite-c has 5 additional pins... so 5 Es for the 5 extra pins. Yes, it's dumb, I know.
+
+### Descripiton
+
+This is a reversible pcb that is wired only, has per key leds (only on one of the two variations), oled, and choc spacing. In order to continue to support a no diode setup, I added support for the elite-c, and this is now required for the build. You can use alternative elite-c compatible controllers.
+
+### Versions and features
+
 There are 6 versions of this pcb, as found in the pcb/wired-rgb directory:
 * choc: No hotswap, 36 keys
 * choc-rotated-inner-thumb: No hotswap, 36 keys, rotated inner thumb similar to the corne
@@ -23,9 +24,27 @@ There are 6 versions of this pcb, as found in the pcb/wired-rgb directory:
 * choc-evq-inside: Hotswap only, 34 key, with an evqwgd001 roller encoder on the inside thumb key
 * choc-evq-outside: Hotswap only, 34 key, with an evqwgd001 roller encoder on the outside thumb key
 
-## wireless only
-There is currently only one variation of this, found in the pcb/wireless-view directory:
-* choc-hotswap-optional: supports both hotswap and soldered switches
+## swweeep
+
+So, to keep the silliness going, this is has an extra W for the wireless only, and 3 Es for the 3 extra required pins on the nice!nano.
+
+### Description (and story)
+
+This was created after the sweeeeep as a wireless alternative. Given the nice!nano has two less gpio than the elite-c, had to remove the data pin (and therefore TRRS). So, this is wireless only!
+
+Given it's a wireless only build, it made sense to add nice!view support, given it consumes 1000x less power than the typical OLED. That meant that it would consume one too many gpio. In the spirit of low power consumption, removing per key rgb was a natural decision, leaving it with just enough gpio for this board.
+
+So, backstory aside, the net of it is:
+* nice!nano required
+* nice!view support
+* wireless only (no TRRS)
+* JST spaced battery through holes
+* on/off switch
+* both kailh hotswap and mill max compatible through hole
+
+### Notes
+
+Regarding the JST footprint, you can solder directly or use jst. If soldering, connect power to the middle hole (with the +) and GND to the -. If using JST, be sure to look at your battery wiring and connect the JST connector such that the power lines up with the middle pin (again, with thhe + on the silkscreen)
 
 # Support me!
 
