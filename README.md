@@ -42,6 +42,8 @@ So, backstory aside, the net of it is:
 * on/off switch
 * both kailh hotswap and mill max compatible through hole
 
+Special thanks to @jasonhazel for kickstarting the initiative!
+
 ### Notes
 
 Regarding the JST footprint, you can solder directly or use jst. If soldering, connect power to the middle hole (with the +) and GND to the -. If using JST, be sure to look at your battery wiring and connect the JST connector such that the power lines up with the middle pin (again, with thhe + on the silkscreen)
