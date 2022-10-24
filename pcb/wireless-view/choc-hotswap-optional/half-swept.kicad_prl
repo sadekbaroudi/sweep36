@@ -64,8 +64,8 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "fffffef_ffffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "half-swept.kicad_prl",
