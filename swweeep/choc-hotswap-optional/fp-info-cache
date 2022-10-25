@@ -1,4 +1,4 @@
-20129602926393944
+20131269584084644
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85511,6 +85511,13 @@ varistor SIOV
 0
 2
 2
+fingerpunch
+JST_PH_S3B-PH-K-keyboard
+JST PH series connector, S3B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+3
+3
 fingerpunch
 Kailh_socket_PG1350_optional_reversible
 Kailh "Choc" PG1350 keyswitch with optional socket mount, reversible
