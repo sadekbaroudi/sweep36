@@ -75,7 +75,17 @@ https://github.com/sadekbaroudi/qmk_firmware/tree/master/keyboards/fingerpunch/s
 
 https://github.com/sadekbaroudi/zmk-swweeep
 
+# swweeep v1.3 fix
+
+If you built a swweeep v1.3 or earlier, you will need to connect the battery ground pin to the controller gnd pin, as shown below:
+
+![pcbs](images/swweeep-v1.3-bodge.jpg)
+
 # Pictures
+
+## swweeep with nice!view
+
+![pcbs](images/swweeep-1.jpg)
 
 ## sweeeeep choc
 
