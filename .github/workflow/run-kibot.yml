@@ -1,0 +1,58 @@
+name: "KiCad CI/CD Render previews"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '*.kicad_pcb'
+      # - '*'
+      - '*.kibot.yaml'
+      - '.github/workflows/run-kibot.yml'
+
+jobs:
+  render:
+    strategy:
+      fail-fast: false
+      matrix:
+        board: [ 
+          sweeeeep/choc, 
+          sweeeeep/choc-evq-inside, 
+          sweeeeep/choc-evq-outside, 
+          sweeeeep/choc-hotswap, 
+          sweeeeep/choc-rotated-inner-thumb, 
+          sweeeeep/ks27-choc, 
+          swweeep/choc-hotswap-optional
+          ]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        # Required - kibot config file
+        config: .kibot/main.kibot.yaml
+        # optional - prefix to output defined in config
+        dir: gallery/${{ matrix.board }}/
+        # optional - schematic file
+        # schema: 'main.kicad_sch'
+        # optional - PCB design file
+        board: "${{ matrix.board }}/half-swept.kicad_pcb"
+    - uses: actions/upload-artifact@main
+      with:
+        path: gallery/
+
+  publish: 
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/download-artifact@v3
+        with:
+          path: gallery/
+      - run: rm -rf pcb_images/*
+      - run: mv gallery/artifact/* pcb_images/${{ matrix.board }}
+      - uses: stefanzweifel/git-auto-commit-action@v4.14.1
+        with:
+          commit_message: "Update gallery (automated)"
+          commit_user_name: GitHub Actions Bot

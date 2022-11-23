@@ -1,0 +1,29 @@
+kibot:
+  version: 1
+
+preflight:
+  run_erc: false
+  run_drc: false
+  check_zone_fills: false
+  ignore_unconnected: false
+
+global:
+  # Add %r if you want the revision name
+  # output: '%f-%i_%r.%x'
+  output: '%f-%i.%x'
+
+outputs:
+  # render the top side with pcbdraw
+  - name: pcb_top_b
+    comment: "PCB render top purple"
+    type: pcbdraw
+    options:
+      format: png
+      style: oshpark-purple
+  - name: pcb_bot_b
+    comment: "PCB render bottom purple"
+    type: pcbdraw
+    options:
+      format: png
+      style: oshpark-purple
+      bottom: True
