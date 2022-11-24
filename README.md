@@ -98,3 +98,38 @@ If you built a swweeep v1.3 or earlier, you will need to connect the battery gro
 ## sweeeeep evq inside
 
 ![pcbs](images/sweeeeep-evq-inner.png)
+
+### sweeeeep (choc)
+| Front | Back |
+| :---: | :---: |
+| ![front](pcb_images/sweeeeep/choc/half-swept-top.png) | ![back](pcb_images/sweeeeep/choc/half-swept-bottom.png) |
+
+### sweeeeep (choc-evq-inside)
+| Front | Back |
+| :---: | :---: |
+| ![front](pcb_images/sweeeeep/choc-evq-inside/half-swept-top.png) | ![back](pcb_images/sweeeeep/choc-evq-inside/half-swept-bottom.png) |
+
+### sweeeeep (choc-evq-outside)
+| Front | Back |
+| :---: | :---: |
+| ![front](pcb_images/sweeeeep/choc-evq-outside/half-swept-top.png) | ![back](pcb_images/sweeeeep/choc-evq-outside/half-swept-bottom.png) |
+
+### sweeeeep (choc-hotswap)
+| Front | Back |
+| :---: | :---: |
+| ![front](pcb_images/sweeeeep/choc-hotswap/half-swept-top.png) | ![back](pcb_images/sweeeeep/choc-hotswap/half-swept-bottom.png) |
+
+### sweeeeep (choc-rotated-inner-thumb)
+| Front | Back |
+| :---: | :---: |
+| ![front](pcb_images/sweeeeep/choc-rotated-inner-thumb/half-swept-top.png) | ![back](pcb_images/sweeeeep/choc-rotated-inner-thumb/half-swept-bottom.png) |
+
+### sweeeeep (ks27-choc)
+| Front | Back |
+| :---: | :---: |
+| ![front](pcb_images/sweeeeep/ks27-choc/half-swept-top.png) | ![back](pcb_images/sweeeeep/ks27-choc/half-swept-bottom.png) |
+
+### swweeep (choc-hotswap-optional)
+| Front | Back |
+| :---: | :---: |
+| ![front](pcb_images/swweeep/choc-hotswap-optional/half-swept-top.png) | ![back](pcb_images/swweeep/choc-hotswap-optional/half-swept-bottom.png) |
