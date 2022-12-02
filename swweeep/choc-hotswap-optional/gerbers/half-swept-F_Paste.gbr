@@ -1,33 +1,17 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.8)*%
-%TF.CreationDate,2022-11-10T08:12:55-08:00*%
+%TF.CreationDate,2022-12-01T16:35:38-08:00*%
 %TF.ProjectId,half-swept,68616c66-2d73-4776-9570-742e6b696361,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.8)) date 2022-11-10 08:12:55*
+G04 Created by KiCad (PCBNEW (6.0.8)) date 2022-12-01 16:35:38*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
 G04 Aperture macros list*
-%AMRoundRect*
-0 Rectangle with rounded corners*
-0 $1 Rounding radius*
-0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
-0 Add a 4 corners polygon primitive as box body*
-4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
-0 Add four circle primitives for the rounded corners*
-1,1,$1+$1,$2,$3*
-1,1,$1+$1,$4,$5*
-1,1,$1+$1,$6,$7*
-1,1,$1+$1,$8,$9*
-0 Add four rect primitives between the rounded corners*
-20,1,$1+$1,$2,$3,$4,$5,0*
-20,1,$1+$1,$4,$5,$6,$7,0*
-20,1,$1+$1,$6,$7,$8,$9,0*
-20,1,$1+$1,$8,$9,$2,$3,0*%
 %AMRotRect*
 0 Rectangle, with rotation*
 0 The origin of the aperture is its center*
@@ -40,9 +24,7 @@ G04 Aperture macros list end*
 %ADD10R,2.600000X2.600000*%
 %ADD11RotRect,2.600000X2.600000X155.000000*%
 %ADD12RotRect,2.600000X2.600000X165.000000*%
-%ADD13RoundRect,0.200000X0.200000X-0.300000X0.200000X0.300000X-0.200000X0.300000X-0.200000X-0.300000X0*%
-%ADD14RoundRect,0.175000X0.575000X-0.175000X0.575000X0.175000X-0.575000X0.175000X-0.575000X-0.175000X0*%
-%ADD15RotRect,2.600000X2.600000X175.000000*%
+%ADD13RotRect,2.600000X2.600000X175.000000*%
 G04 APERTURE END LIST*
 D10*
 %TO.C,SW2*%
@@ -116,17 +98,6 @@ X90223483Y-88904629D03*
 X101949328Y-89768952D03*
 %TD*%
 D13*
-%TO.C,SW7*%
-X120113065Y-79332291D03*
-X122323065Y-79332291D03*
-X122323065Y-72032291D03*
-X120113065Y-72032291D03*
-D14*
-X119463065Y-77932291D03*
-X119463065Y-74932291D03*
-X119463065Y-73432291D03*
-%TD*%
-D15*
 %TO.C,SW1*%
 X71895750Y-86246923D03*
 X83593541Y-85061944D03*
