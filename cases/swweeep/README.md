@@ -51,3 +51,9 @@ This is a 10 degree tented bottom plate, intended to be used with `swweeep-body-
 
 This is a 10 degree tented bottom plate, intended to be used with `swweeep-body-covered-left` or `swweeep-body-open-left`. There is a large battery compartment in the tent to put your battery. Fits a battery up to 30mm x 52mm x 8mm
 
+### swweeep-bot-18deg-18650
+
+This is a 18 degree tented bottom plate, intended to be used with `swweeep-body-covered-left` or `swweeep-body-open-left`. Run the wires through the small holes in the bottom plate and solder to the pcb. Make sure the wires are long enough that you can safely take off the bottom plate without ripping the wires out of the through holes.
+
+![18650-holder](images/18650-holder.png)
+
