@@ -6,8 +6,11 @@
 
 * 2x body
 * 2x bottom plate
+* On off switch extension (optional)
 * 8-12x M2 heat set inserts, 4mm in length
 * 8-12x M2 screws, 4-6mm in length (5mm is best)
+
+`swweeep-on-off-extension-small`, `swweeep-on-off-extension-medium`, and `swweeep-on-off-extension-large`
 
 ## Bodies
 
@@ -57,3 +60,17 @@ This is a 18 degree tented bottom plate, intended to be used with `swweeep-body-
 
 ![18650-holder](images/18650-holder.png)
 
+
+## On Off Switch Extension
+
+NOTE: This is only intended to be used with swweeep-v1.4 or prior, as I have changed the on/off switch. If you prefer the smaller switch with this switch extension, please feel free to fab v1.4. If you want the larger on/off switch, use v1.5. Please see the releases tab in the github repo to select which you want to use.
+
+This is a cover for the on off switch. It should be placed into the hole for the on off switch before putting the pcb into the case. There are three versions of this, since different printers can generate slightly different results, especially at this scale. Please experiment with all of them until you find one that works.
+
+(Special thanks to @kyek for the idea to do this)
+
+![on-off-switch-01](images/on-off-switch-01.png)
+![on-off-switch-02](images/on-off-switch-02.png)
+![on-off-switch-03](images/on-off-switch-03.png)
+![on-off-switch-04](images/on-off-switch-04.png)
+![on-off-switch-05](images/on-off-switch-05.png)
