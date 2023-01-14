@@ -20,9 +20,9 @@ There are 6 versions of this pcb, as found in the pcb/wired-rgb directory:
 * choc: No hotswap, 36 keys
 * choc-rotated-inner-thumb: No hotswap, 36 keys, rotated inner thumb similar to the corne
 * choc-hotswap: Hotswap only, 36 keys
-* ks27-choc: Support for both choc and gateron ks-27 switches, no hotswap. Note that ks-27 switches use MX keycaps on a low profile switch. Given it's choc spacing, you will likely need to use custom smaller MX keycaps if using thees switches
-* choc-evq-inside: Hotswap only, 34 key, with an evqwgd001 roller encoder on the inside thumb key
-* choc-evq-outside: Hotswap only, 34 key, with an evqwgd001 roller encoder on the outside thumb key
+* ks27-choc: Support for both choc and gateron ks-27 switches, no hotswap. Note that ks-27 switches use MX keycaps on a low profile switch. Given it's choc spacing, you will likely need to use custom smaller MX keycaps if using these switches
+* choc-evq-inside: No hotswap, 34 key, with an evqwgd001 roller encoder on the inside thumb key
+* choc-evq-outside: No hotswap, 34 key, with an evqwgd001 roller encoder on the outside thumb key
 
 ## swweeep
 
