@@ -48,6 +48,8 @@ Special thanks to @jasonhazel for kickstarting the initiative!
 
 Regarding the JST footprint, you can solder directly or use jst. If soldering, connect power to the middle hole (with the +) and GND to the -. If using JST, be sure to look at your battery wiring and connect the JST connector such that the power lines up with the middle pin (again, with thhe + on the silkscreen)
 
+It is possible to also produce a PCB baseplate board for the swweeep with a nice silkscreen, the kicad files are [here](https://github.com/sadekbaroudi/sweep36/tree/master/sweeeeep), or if you think the [Great Wave Off Kanagawa](https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa) would make a good silkscreen, the gerbers for that are [here](https://github.com/sadekbaroudi/sweep36/blob/master/swweeep/swweeep-base/gerber/v1.0-kanagawa-gerbers.zip)
+
 # Support me!
 
 I have spent a lot of time and money designing prototypes, testing, developing, etc. Any contributions would be greatly appreciated!
@@ -86,6 +88,10 @@ If you built a swweeep v1.3 or earlier, you will need to connect the battery gro
 ## swweeep with nice!view
 
 ![pcbs](images/swweeep-1.jpg)
+
+## swweeep with the base plate
+
+![pcbs](images/swweeep-base.jpg)
 
 ## sweeeeep choc
 
