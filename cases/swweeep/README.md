@@ -6,8 +6,8 @@
 
 * 2x body
 * 2x bottom plate
-* On off switch extension (optional)
-* 8-12x M2 heat set inserts, 4mm in length
+* On-off switch extension (optional)
+* 8-12x M2 heat-set inserts, 4mm in length
 * 8-12x M2 screws, 4-6mm in length (5mm is best)
 
 `swweeep-on-off-extension-small`, `swweeep-on-off-extension-medium`, and `swweeep-on-off-extension-large`
@@ -24,9 +24,9 @@ Covered controller, to be used with a nice!view
 
 ### swweeep-body-covered-widecover-left
 
-Covered controller, to be used with nice!view. This provides enough room on the side of the controller to store a 110 mah battery. Note that this leaves the on/off switch a bit from from the opening on the inside, so you'll need more precision with tweezers or a paper clip to turn it on and off.
+Covered controller, to be used with nice!view. This provides enough room on the side of the controller to store a 110 mAh battery. Note that this leaves the on/off switch a bit from the opening on the inside, so you'll need more precision with tweezers or a paper clip to turn it on and off.
 
-However, given you can store the battery on top, you can use the thin bottom bottom plate with this ( `swweeep-bot-widecover-left` )
+However, given you can store the battery on top, you can use the thin bottom plate with this ( `swweeep-bot-widecover-left` )
 
 ## Bottom Plates
 
@@ -56,16 +56,16 @@ This is a 10 degree tented bottom plate, intended to be used with `swweeep-body-
 
 ### swweeep-bot-18deg-18650
 
-This is a 18 degree tented bottom plate, intended to be used with `swweeep-body-covered-left` or `swweeep-body-open-left`. Run the wires through the small holes in the bottom plate and solder to the pcb. Make sure the wires are long enough that you can safely take off the bottom plate without ripping the wires out of the through holes.
+This is a 18 degree tented bottom plate, intended to be used with `swweeep-body-covered-left` or `swweeep-body-open-left`. Run the wires through the small holes in the bottom plate and solder to the PCB. Make sure the wires are long enough that you can safely take off the bottom plate without ripping the wires out of the through holes.
 
 ![18650-holder](images/18650-holder.png)
 
 
-## On Off Switch Extension
+## On-Off Switch Extension
 
-NOTE: This is only intended to be used with swweeep-v1.4 or prior, as I have changed the on/off switch. If you prefer the smaller switch with this switch extension, please feel free to fab v1.4. If you want the larger on/off switch, use v1.5. Please see the releases tab in the github repo to select which you want to use.
+NOTE: This is only intended to be used with swweeep-v1.4 or prior, as I have changed the on/off switch. If you prefer the smaller switch with this switch extension, please feel free to fab v1.4. If you want the larger on/off switch, use v1.5. Please see the releases tab in the GitHub repo to select which you want to use.
 
-This is a cover for the on off switch. It should be placed into the hole for the on off switch before putting the pcb into the case. There are three versions of this, since different printers can generate slightly different results, especially at this scale. Please experiment with all of them until you find one that works.
+This is a cover for the on-off switch. It should be placed into the hole for the on-off switch before putting the PCB into the case. There are three versions of this since different printers can generate slightly different results, especially at this scale. Please experiment with all of them until you find one that works.
 
 (Special thanks to @kyek for the idea to do this)
 
