@@ -50,6 +50,12 @@ Regarding the JST footprint, you can solder directly or use jst. If soldering, c
 
 It is possible to also produce a PCB baseplate board for the swweeep with a nice silkscreen, the kicad files are [here](https://github.com/sadekbaroudi/sweep36/tree/master/sweeeeep), or if you think the [Great Wave Off Kanagawa](https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa) would make a good silkscreen, the gerbers for that are [here](https://github.com/sadekbaroudi/sweep36/blob/master/swweeep/swweeep-base/gerber/v1.0-kanagawa-gerbers.zip)
 
+## dweeeeep
+
+### Description
+
+This was created after both of the other variations. It was created as an alternative to the sweeeeep. It's a sweeeeep with diodes. I know the principle of the original sweep was to have no diodes. I apologize, this was a special request to allow people to use a pro micro compatible controller, as they're much cheaper.
+
 # Support me!
 
 I have spent a lot of time and money designing prototypes, testing, developing, etc. Any contributions would be greatly appreciated!
